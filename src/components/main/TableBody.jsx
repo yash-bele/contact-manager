@@ -37,33 +37,33 @@ const TableBody = ({ contacts }) => {
                 htmlFor={id}
                 className='text-sm font-semibold ml-3 text-slate-500'
               >
-                {name.length > 19 ? `${name.substring(0, 19)}...` : name}
+                {name.length > 17 ? `${name.substring(0, 17)}...` : name}
               </label>
             </td>
             <td className='w-[15%]'>
               <span className='text-sm font-semibold ml-2 text-slate-500'>
-                {designation.length > 22
-                  ? `${designation.substring(0, 22)}...`
+                {designation.length > 20
+                  ? `${designation.substring(0, 20)}...`
                   : designation}
               </span>
             </td>
             <td className='w-[15%]'>
               <span className='text-sm font-semibold ml-2 text-slate-500'>
-                {industry.length > 22
-                  ? `${industry.substring(0, 22)}...`
+                {industry.length > 20
+                  ? `${industry.substring(0, 20)}...`
                   : industry}
               </span>
             </td>
             <td className='w-[15%]'>
               <span className='text-sm font-semibold ml-2 text-slate-500'>
-                {industry.length > 22
-                  ? `${industry.substring(0, 22)}...`
+                {industry.length > 20
+                  ? `${industry.substring(0, 20)}...`
                   : industry}
               </span>
             </td>
             <td className='w-[15%] relative group'>
               <span className='text-sm font-semibold ml-2 text-slate-500 group-hover:text-[#2DA5FC]'>
-                {email.length > 22 ? `${email.substring(0, 22)}...` : email}
+                {email.length > 20 ? `${email.substring(0, 20)}...` : email}
               </span>
               <div className='absolute text-xs font-semibold text-[#2DA5FC] -bottom-8 z-10 hidden group-hover:block'>
                 <div className='border-b-[15px] border-b-white border-l-[8px] border-r-transparent border-r-[8px] border-l-transparent ml-auto mr-[25%] w-fit'></div>
