@@ -67,7 +67,7 @@ const TableBody = ({ contacts }) => {
               </span>
               <div className='absolute text-xs font-semibold text-[#2DA5FC] -bottom-8 z-10 hidden group-hover:block'>
                 <div className='border-b-[15px] border-b-white border-l-[8px] border-r-transparent border-r-[8px] border-l-transparent ml-auto mr-[25%] w-fit'></div>
-                <div className='bg-white py-1 px-2 ml-2 rounded-md shadow-md'>
+                <div className='bg-white py-1 px-2 ml-2 rounded-md shadow-lg'>
                   <p className='cursor-pointer'>{email}</p>
                 </div>
               </div>
